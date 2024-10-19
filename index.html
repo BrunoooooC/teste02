@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abra no WhatsApp</title>
+</head>
+<body>
+    <h1>Você está quase lá!</h1>
+    <p>Para falar comigo no WhatsApp, clique no link abaixo:</p>
+    <a href="https://wa.me/5511961230424" target="_blank" id="whatsapp-link">Abrir WhatsApp</a>
+    <p>Se o link não abrir automaticamente, copie e cole no seu navegador padrão:</p>
+    <p><strong>https://wa.me/551196123042</strong></p>
+    <script>
+        // Sugestão de abrir o link em uma nova aba
+        document.getElementById('whatsapp-link').onclick = function() {
+            setTimeout(function() {
+                alert('Se não conseguir abrir o WhatsApp, copie o link e cole no seu navegador.');
+            }, 1000);
+        };
+    </script>
+</body>
+</html>
